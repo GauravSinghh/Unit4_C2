@@ -4,10 +4,10 @@ public class Teacher extends Person {
 
 	int instructorId;
 	int salary;
-	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "Teacher [instructorId=" + instructorId + ", salary=" + salary + getAddress() +"]";
 	}
+	
+
 }
